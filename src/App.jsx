@@ -5,6 +5,8 @@ import './App.css'
 import { Route, Routes } from 'react-router'
 import HomePage from './pages/HomePage/HomePage'
 import Page3rd from './pages/HomePage/Page3rd'
+import NavBar from './pages/NavBar'
+
 import Secondpage from './pages/Secondpage'
 
 function App() {
@@ -13,9 +15,10 @@ function App() {
   return (
     <>
      <Routes>
-      {/* <Route path='/' element={<HomePage/>}/> */}
-      {/* <Route path='/' element={<Page3rd/>}/> */}
-      <Route path='/Secondpage' element={<Secondpage/>}/>
+      <Route path='/' element={<Page3rd/>}/>
+      <Route path='/' element={<NavBar/>}/>
+      <Route path
+
      </Routes>
     </>
   )
