@@ -12,7 +12,11 @@ function App() {
 
   return (
     <>
-    <Routes></Routes>
+    {/* <Routes> */}
+    <NavBar/>
+      <HomePage/>
+      <Page3rd/>
+    {/* </Routes> */}
     </>
      
 
