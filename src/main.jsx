@@ -9,6 +9,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 <BrowserRouter>
 <React.StrictMode>
     <App />
-    <NavBar/>
   </React.StrictMode></BrowserRouter>
 )
