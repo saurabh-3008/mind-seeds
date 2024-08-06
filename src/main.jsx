@@ -4,11 +4,13 @@ import App from './App.jsx'
 import './index.css'
 import { BrowserRouter } from 'react-router-dom'
 import NavBar from './pages/NavBar.jsx'
+import Page3rd from './pages/HomePage/Page3rd.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
 <BrowserRouter>
 <React.StrictMode>
     <App />
     <NavBar/>
+    <Page3rd/>
   </React.StrictMode></BrowserRouter>
 )

@@ -10,7 +10,7 @@ const NavBar = () => {
     };
   
     return (
-      <nav className="bg-purple-950 shadow-md">
+      <nav className="bg-[#0223c5] shadow-md">
         <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex-shrink-0 items-center">

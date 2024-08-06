@@ -14,9 +14,8 @@ function App() {
   return (
     <>
      <Routes>
-      {/* <Route path='/' element={<HomePage/>}/> */}
-      <Route path='/' element={<Page3rd/>}/>
-      <Route path='/' element={<NavBar/>}/>
+      
+      
 
      </Routes>
     </>
