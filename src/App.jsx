@@ -14,12 +14,6 @@ function App() {
 
   return (
     <>
-     <Routes>
-      <Route path='/' element={<Page3rd/>}/>
-      <Route path='/' element={<NavBar/>}/>
-      <Route path
-
-     </Routes>
     </>
   )
 }
