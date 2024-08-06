@@ -12,20 +12,12 @@ function App() {
 
   return (
     <>
-<<<<<<< HEAD
-   <NavBar />
-   <HomePage />
-   {/* <Page3rd /> */}
+      <NavBar />
+      <HomePage />
+      <Page3rd />
 
-=======
-    {/* <Routes> */}
-    <NavBar/>
-      <HomePage/>
-      <Page3rd/>
-    {/* </Routes> */}
->>>>>>> 623f85b1fd71850eaf579fd5174f20cdae1d0d1a
     </>
-     
+
 
 
 
