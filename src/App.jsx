@@ -5,6 +5,7 @@ import './App.css'
 import { Route, Routes } from 'react-router'
 import HomePage from './pages/HomePage/HomePage'
 import Page3rd from './pages/HomePage/Page3rd'
+import Secondpage from './pages/Secondpage'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,7 +14,8 @@ function App() {
     <>
      <Routes>
       {/* <Route path='/' element={<HomePage/>}/> */}
-      <Route path='/' element={<Page3rd/>}/>
+      {/* <Route path='/' element={<Page3rd/>}/> */}
+      <Route path='/Secondpage' element={<Secondpage/>}/>
      </Routes>
     </>
   )
