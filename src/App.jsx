@@ -13,13 +13,11 @@ function App() {
 
   return (
     <>
-<<<<<<< HEAD
-=======
       <NavBar />
       <HomePage />
+      <Secondpage />
       <Page3rd />
-
->>>>>>> 46ead3f1bd5217c57f5b46b5f2e365d0cde71f38
+      
     </>
 
 

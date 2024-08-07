@@ -9,10 +9,6 @@ import Page3rd from './pages/HomePage/Page3rd.jsx'
 ReactDOM.createRoot(document.getElementById('root')).render(
 <BrowserRouter>
 <React.StrictMode>
-<<<<<<< HEAD
     <App />
-=======
-<App/>
->>>>>>> 46ead3f1bd5217c57f5b46b5f2e365d0cde71f38
   </React.StrictMode></BrowserRouter>
 )
