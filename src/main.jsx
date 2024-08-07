@@ -9,6 +9,6 @@ import Page3rd from './pages/HomePage/Page3rd.jsx'
 ReactDOM.createRoot(document.getElementById('root')).render(
 <BrowserRouter>
 <React.StrictMode>
-<App/>
+    <App />
   </React.StrictMode></BrowserRouter>
 )
