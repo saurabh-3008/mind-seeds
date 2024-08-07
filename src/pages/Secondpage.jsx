@@ -3,7 +3,7 @@ import { BsCloudSnow } from "react-icons/bs";
 
 function Secondpage() {
   return (
-    <div className='w-[100vw] h-[100vh] bg-[#200A73] text-white flex justify-center items-center'>
+    <div className='w-[100vw] h-[100vh] bg-[#202d6e]y text-white flex justify-center items-center'>
         {/* <div className='bg-purple-900 text-white'> */}
             <div className='flex flex-col justify-center items-center gap-5 '>
 
