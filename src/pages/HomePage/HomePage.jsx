@@ -7,9 +7,10 @@ const HomePage = () => {
       <div className='bg-[#202d6e]'
       >
         <div className=' text-white p-4 md:p-28 font-Almarai'>
-          <div className='flex flex-col md:flex-row-reverse'>
+          <div className='flex flex-col md:flex-row'>
             <div className='w-full md:w-1/2 flex justify-center mb-8 md:mb-0'>
               <img className='w-full max-w-xs md:max-w-md' src="mobile.png" alt="mobile_photo" />
+
             </div>
             <div className='md:w-2/3 flex flex-col justify-center'>
               <div className='mb-4'>
