@@ -1,30 +1,17 @@
 import './App.css'
-import { Route, Routes } from 'react-router'
 import HomePage from './pages/HomePage/HomePage'
-
 import NavBar from './pages/NavBar';
-import Page3rd from './pages/HomePage/Page3rd'
-// import NavBar from './pages/NavBar'
-//import Page3rd from './pages/HomePage/Page3rd'
 import Page4 from './pages/Page4'
-
-//import NavBar from './pages/NavBar'
-
-
+import Page3rd from './pages/HomePage/Page3rd'
 import Secondpage from './pages/Secondpage'
-
-
 function App() {
-
-
   return (
     <>
-<NavBar />
-<HomePage />
-<Secondpage />
-<Page3rd />
-<Page4 />
-
+ <NavBar/> 
+ <HomePage/>
+<Secondpage/>
+<Page3rd/>
+<Page4/>  
 
     </>
   );
@@ -35,5 +22,4 @@ function App() {
 
 }
 
-export default App
-
+export default App;
