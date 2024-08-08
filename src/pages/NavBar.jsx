@@ -8,9 +8,9 @@ const NavBar = () => {
     const toggleMenu = () => {
       setIsOpen(!isOpen);
     };
-  
+
     return (
-      <nav className=" fixed w-full bg-purple-950 shadow-md">
+      <nav className="bg-purple-950 shadow-md">
         <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex-shrink-0 items-center"> 
@@ -53,3 +53,4 @@ const NavBar = () => {
 }
 
 export default NavBar
+
