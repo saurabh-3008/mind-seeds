@@ -4,8 +4,7 @@ import { Link } from 'react-router-dom';
 const HomePage = () => {
   return (
     <>
-      <div className='bg-[#202d6e]'
-      >
+      <div className='bg-[#202d6e]'>
         <div className=' text-white p-4 md:p-28 font-Almarai'>
           <div className='flex flex-col md:flex-row'>
             <div className='w-full md:w-1/2 flex justify-center mb-8 md:mb-0'>
@@ -30,9 +29,10 @@ const HomePage = () => {
             </div>
           </div>
         </div>
-      </div>
+        </div>
     </>
   );
+
 }
 
 export default HomePage;
