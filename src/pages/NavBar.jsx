@@ -10,19 +10,20 @@ const NavBar = () => {
     };
   
     return (
-      <nav className="bg-purple-950 shadow-md">
+      <nav className=" fixed w-full bg-purple-950 shadow-md">
         <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
-            <div className="flex-shrink-0 items-center">
+            <div className="flex-shrink-0 items-center"> 
               <img className="h-14 w-40" src={ H1 } alt="logo" />
             </div>
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4 justify-center">
-                <Link to="#" className="text-white hover:text-black px-3 py-2 rounded-md text-sm font-medium ">HOME</Link>
-                <Link to="#" className="text-white hover:text-black px-3 py-2 rounded-md text-sm font-medium">MEN</Link>
-                <Link to="#" className="text-white hover:text-black px-3 py-2 rounded-md text-sm font-medium">WOMEN</Link>
-                <Link to="#" className="text-white hover:text-black px-3 py-2 rounded-md text-sm font-medium">BLOG</Link>
-                <Link to="#" className="text-white hover:text-black px-3 py-2 rounded-md text-sm font-medium">CONTACT</Link>
+                <Link to="#" className="text-white hover:text-black px-3 py-2 rounded-md text-sm font-medium ">Home</Link>
+                <Link to="#" className="text-white hover:text-black px-3 py-2 rounded-md text-sm font-medium">About</Link>
+                <Link to="#" className="text-white hover:text-black px-3 py-2 rounded-md text-sm font-medium">Features</Link>
+                <Link to="#" className="text-white hover:text-black px-3 py-2 rounded-md text-sm font-medium">Screenshots</Link>
+                <Link to="#" className="text-white hover:text-black px-3 py-2 rounded-md text-sm font-medium">Reviews</Link>
+                <Link to="#" className="text-white hover:text-black px-3 py-2 rounded-md text-sm font-medium">Videos</Link>
               </div>
             </div>
             <div className="flex md:hidden">
@@ -38,11 +39,12 @@ const NavBar = () => {
         {isOpen && (
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-              <Link to="#" className="text-white hover:text-black block px-3 py-2 rounded-md text-base font-medium">HOME</Link>
-              <Link to="#" className="text-white hover:text-black block px-3 py-2 rounded-md text-base font-medium">MEN</Link>
-              <Link to="#" className="text-white hover:text-black block px-3 py-2 rounded-md text-base font-medium">WOMEN</Link>
-              <Link to="#" className="text-white hover:text-black block px-3 py-2 rounded-md text-base font-medium">BLOG</Link>
-              <Link to="#" className="text-white hover:text-black block px-3 py-2 rounded-md text-base font-medium">CONTACT</Link>
+              <Link to="#" className="text-white hover:text-black block px-3 py-2 rounded-md text-base font-medium">Home</Link>
+              <Link to="#" className="text-white hover:text-black block px-3 py-2 rounded-md text-base font-medium">About</Link>
+              <Link to="#" className="text-white hover:text-black block px-3 py-2 rounded-md text-base font-medium">Features</Link>
+              <Link to="#" className="text-white hover:text-black block px-3 py-2 rounded-md text-base font-medium">Screenshots</Link>
+              <Link to="#" className="text-white hover:text-black block px-3 py-2 rounded-md text-base font-medium">Reviews</Link>
+              <Link to="#" className="text-white hover:text-black px-3 py-2 rounded-md text-sm font-medium">Videos</Link>
             </div>
           </div>
         )}
