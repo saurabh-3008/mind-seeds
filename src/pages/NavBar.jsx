@@ -11,11 +11,9 @@ const NavBar = () => {
     };
 
     return (
-<<<<<<< HEAD
+
       <nav className="shadow-md bg-[#202d6e]">
-=======
-      <nav className="shadow-md bg-[#202d6e] ">
->>>>>>> c214a256836fe1a9ac96a03f505627b890201912
+
         <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex-shrink-0 items-center">

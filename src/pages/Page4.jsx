@@ -10,7 +10,7 @@ import name from './christopher-campbell-rDEOVtE7vOs-unsplash.jpg';
 function Page4() {
   return (
     <>
-      <div className='bg-purple-900 text-white' >
+      <div className='bg-[#202d6e] text-white' >
 
        <div className='sm:w-[100vw] sm:h-[100vh] flex justify-center items-center p-5 '>
        <div className=' sm:flex sm:justify-center sm:items-center sm:gap-3 sm:p-4'>
