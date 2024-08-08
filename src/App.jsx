@@ -9,20 +9,13 @@ import NavBar from './pages/NavBar'
 import Secondpage from './pages/Secondpage'
 
 function App() {
-
-
   return (
     <>
-      <NavBar />
+      <NavBar /> 
       <HomePage />
       <Secondpage />
       <Page3rd />
-      
     </>
-
-
-
-
   )
 }
 
