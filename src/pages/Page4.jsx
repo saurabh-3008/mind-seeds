@@ -20,7 +20,7 @@ function Page4() {
                 IMOGEN LAMB 
                 </h1>
                 <p>
-                Creator of MindSeeds
+                Creator of MindSeedssss
                 </p>
             </div>
 
