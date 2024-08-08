@@ -1,4 +1,5 @@
 import H1 from '../assets/logo1.png';
+
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -8,9 +9,13 @@ const NavBar = () => {
     const toggleMenu = () => {
       setIsOpen(!isOpen);
     };
-  
+
     return (
-      <nav className="bg-purple-950 shadow-md">
+<<<<<<< HEAD
+      <nav className="shadow-md bg-[#202d6e]">
+=======
+      <nav className="shadow-md bg-[#202d6e] ">
+>>>>>>> c214a256836fe1a9ac96a03f505627b890201912
         <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex-shrink-0 items-center">
@@ -51,3 +56,4 @@ const NavBar = () => {
 }
 
 export default NavBar
+

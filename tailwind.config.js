@@ -5,6 +5,10 @@ export default {
 ],
   theme: {
     extend: {},
+    fontFamily:{
+      Almarai:["Almarai", "sans-serif"],
+      Chivo:["Chivo", "sans-serif"]
+    }
   },
   plugins: [],
 }
