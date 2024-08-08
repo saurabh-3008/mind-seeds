@@ -17,7 +17,7 @@ function Page4() {
             <div className='flex flex-col  items-center '>
                 <img src={name} className='h-[300px] w-[500px] rounded-full '/>
                 <h1>
-                IMOGEN LAMB
+                IMOGEN LAMB 
                 </h1>
                 <p>
                 Creator of MindSeeds
